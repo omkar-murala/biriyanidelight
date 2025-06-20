@@ -1,0 +1,214 @@
+/* General Body Styling */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff7f0;
+  overflow: hidden;
+}
+
+/* Brand Header */
+.brand {
+  text-align: center;
+  padding: 1rem;
+  background: #a52a2a;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Container for both panels */
+.container {
+  display: flex;
+  height: calc(100vh - 80px); /* Header height is 80px approx */
+  overflow: hidden;
+}
+
+/* Left Panel: Categories */
+.category-panel {
+  width: 35%;
+  background: #fceae4;
+  padding: 0.5rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Category Cards Container */
+.category-panel > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* Category Cards */
+.category-card {
+  background: #fff;
+  margin: 0.4rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 80px;
+  height: 80px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.category-panel::-webkit-scrollbar {
+  width: 6px;
+}
+.category-panel::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+.category-panel::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-card:hover {
+  transform: scale(1.03);
+}
+.category-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.category-card span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #a52a2a;
+}
+
+/* Right Panel: Menu Items */
+.menu-grid {
+  width: 65%;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.menu-grid::-webkit-scrollbar {
+  width: 6px;
+}
+.menu-grid::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+.menu-grid::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Menu Card – Vertical Layout */
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  min-height: 300px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.menu-card:hover {
+  transform: scale(1.03);
+}
+
+/* Top Image */
+.menu-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+/* Bottom Text Content */
+.card-content {
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  background-color: #fff7f0;
+}
+.card-content h3 {
+  font-size: 1.2rem;       /* Increased font size */
+  color: #a02828;
+  margin: 0;
+  line-height: 1.9;
+  font-weight: 600;        /* Bolder font */
+  font-family: 'Segoe UI';
+}
+
+.card-content p {
+  font-size: 1rem;         /* Increased font size for description */
+  margin: 0.7rem 0;
+  color: #333;
+  font-weight: 500;        /* Slightly bolder description */
+}
+
+.card-content .price {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+/* ✅ Newly added styles — no modifications to above */
+.price-split {
+  display: flex;
+  justify-content: space-between; /* more space between Half and Full */
+  margin-top: 0.7rem;
+  gap: 2.5rem; /* add gap explicitly */
+}
+
+.price-split .half,
+.price-split .full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  font-family: 'Segoe UI', sans-serif;
+  color: #151c0b;
+  text-align: center;
+}
+
+.price-split .half span:first-child,
+.price-split .full span:first-child {
+  font-size: 1rem;
+  margin-bottom: 0.3rem; /* adds gap between label and price */
+}
+
+.price-split .price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0; /* remove default margin */
+}
+
+
+/* For cards with only one price block (e.g., only Full or Price), shift it slightly left */
+.price-split:has(.full):not(:has(.half)),
+.price-split:has(.full):only-child {
+  justify-content: flex-start;
+  padding-left: 6.5rem;
+}
