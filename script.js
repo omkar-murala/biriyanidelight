@@ -119,147 +119,486 @@ const menuData = {
 
   "CURRYS": [
   {
-    name: "Chilli Gobi",
-    desc: "",
-    half: "₹70",
-    full: "₹120",
-    img: "assests/chilli-gobi.jpg"
+    "name": "Chilli Gobi",
+    "desc": "Veg",
+    "half": "₹70",
+    "full": "₹120",
+    "img": "assests/chilli-gobi.jpg"
   },
   {
-    name: "Paneer Butter Masala",
-    desc: "",
-    half: "₹90",
-    full: "₹170",
-    img: "assests/panner-butter.jpg"
+    "name": "Paneer Butter Masala",
+    "desc": "Veg",
+    "half": "₹90",
+    "full": "₹170",
+    "img": "assests/paneer-butter.jpg"
   },
   {
-    name: "Kadai Paneer",
-    desc: "",
-    half: "₹100",
-    full: "₹180",
-    img: "assests/kp.jpg"
+    "name": "Kadai Paneer",
+    "desc": "Veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/kadai-paneer.jpg"
   },
   {
-    name: "Chilli Paneer",
-    desc: "",
-    half: "₹90",
-    full: "₹160",
-    img: "assests/cp.jpg"
+    "name": "Chilli Paneer",
+    "desc": "Veg",
+    "half": "₹90",
+    "full": "₹160",
+    "img": "assests/chilli-paneer.jpg"
   },
   {
-    name: "Paneer Varta",
-    desc: "",
-    half: "₹90",
-    full: "₹170",
-    img: "assests/pb.jpg"
+    "name": "Paneer Varta",
+    "desc": "Veg",
+    "half": "₹90",
+    "full": "₹170",
+    "img": "assests/paneer-varta.jpg"
   },
   {
-    name: "Paneer 65",
-    desc: "",
-    half: "₹100",
-    full: "₹180",
-    img: "assests/p65.jpg"
+    "name": "Paneer 65",
+    "desc": "Veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/paneer-65.jpg"
   },
   {
-    name: "Mushroom Butter Masala",
-    desc: "",
-    half: "₹90",
-    full: "₹170",
-    img: "assests/mbm.jpg"
+    "name": "Mushroom Butter Masala",
+    "desc": "Veg",
+    "half": "₹90",
+    "full": "₹170",
+    "img": "assests/mushroom-butter.jpg"
   },
   {
-    name: "Kadai Mushroom",
-    desc: "",
-    half: "₹100",
-    full: "₹180",
-    img: "assests/kp.jpg"
+    "name": "Kadai Mushroom",
+    "desc": "Veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/kadai-mushroom.jpg"
   },
   {
-    name: "Chilli Mushroom",
-    desc: "",
-    half: "₹90",
-    full: "₹170",
-    img: "assests/cm.jpg"
+    "name": "Chilli Mushroom",
+    "desc": "Veg",
+    "half": "₹90",
+    "full": "₹170",
+    "img": "assests/chilli-mushroom.jpg"
   },
   {
-    name: "Mushroom 65",
-    desc: "",
-    half: "₹100",
-    full: "₹180",
-    img: "assests/m65.jpg"
+    "name": "Mushroom 65",
+    "desc": "Veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/mushroom-65.jpg"
+  },
+  {
+    "name": "Chicken Kasa",
+    "desc": "Non-veg",
+    "half": "₹90",
+    "full": "₹170",
+    "img": "assests/chicken-kasa.jpg"
+  },
+  {
+    "name": "Chicken Butter Masala",
+    "desc": "Non-veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/chicken-butter.jpg"
+  },
+  {
+    "name": "Kadai Chicken",
+    "desc": "Non-veg",
+    "half": "₹100",
+    "full": "₹190",
+    "img": "assests/kadai-chicken.jpg"
+  },
+  {
+    "name": "Chilli Chicken",
+    "desc": "Non-veg",
+    "half": "₹90",
+    "full": "₹160",
+    "img": "assests/chilli-chicken.jpg"
+  },
+  {
+    "name": "Chicken 65",
+    "desc": "Non-veg",
+    "half": "₹100",
+    "full": "₹190",
+    "img": "assests/chicken-65.jpg"
+  },
+  {
+    "name": "Chicken Mughlai",
+    "desc": "Non-veg",
+    "half": "₹120",
+    "full": "₹220",
+    "img": "assests/chicken-mughlai.jpg"
+  },
+  {
+    "name": "Honey Chilli Chicken",
+    "desc": "Non-veg",
+    "half": "₹110",
+    "full": "₹200",
+    "img": "assests/honey-chilli-chicken.jpg"
+  },
+  {
+    "name": "Dragon Chicken",
+    "desc": "Non-veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/dragon-chicken.jpg"
+  },
+  {
+    "name": "Chilli Fish",
+    "desc": "Non-veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/chilli-fish.jpg"
+  },
+  {
+    "name": "Prawn Butter Masala",
+    "desc": "Non-veg",
+    "half": "₹120",
+    "full": "₹220",
+    "img": "assests/prawn-butter.jpg"
+  },
+  {
+    "name": "Chilli Prawn",
+    "desc": "Non-veg",
+    "half": "₹110",
+    "full": "₹210",
+    "img": "assests/chilli-prawn.jpg"
   }
 ],
 
   "STARTERS": [
-    {
-      name: "Chicken Lollipop",
-      desc: "Crispy fried starter",
-      price: "₹160",
-      img: "https://source.unsplash.com/300x200/?chicken,lollipop"
-    },
-    {
-      name: "Paneer Tikka",
-      desc: "Grilled paneer cubes",
-      price: "₹150",
-      img: "https://source.unsplash.com/300x200/?paneer,tikka"
-    }
-  ],
+  {
+    "name": "Crispy Paneer Pakoda",
+    "desc": "Veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/crispy-paneer-pakoda.jpg"
+  },
+  {
+    "name": "Mushroom Salt Pepper",
+    "desc": "Veg",
+    "half": "₹100",
+    "full": "₹180",
+    "img": "assests/mushroom-salt-pepper.jpg"
+  },
+  {
+    "name": "Crispy Corn",
+    "desc": "Veg",
+    "half": "₹80",
+    "full": "₹140",
+    "img": "assests/crispy-corn.jpg"
+  },
+  {
+    "name": "Chicken Pakoda",
+    "desc": "Non-veg",
+    "half": "₹80 (6 Pc)",
+    "full": "₹150 (12 Pc)",
+    "img": "assests/chicken-pakoda.jpg"
+  },
+  {
+    "name": "Fried Chicken",
+    "desc": "Non-veg",
+    "half": "₹90 (6 Pc)",
+    "full": "₹170 (12 Pc)",
+    "img": "assests/fried-chicken.jpg"
+  },
+  {
+    "name": "Chicken Bucket",
+    "desc": "Non-veg",
+    "half": "₹100 (6 Pc)",
+    "full": "₹180 (12 Pc)",
+    "img": "assests/chicken-bucket.jpg"
+  },
+  {
+    "name": "Chicken Lollipop",
+    "desc": "Non-veg",
+    "half": "₹110 (3 Pc)",
+    "full": "₹200 (6 Pc)",
+    "img": "assests/chicken-lollipop.jpg"
+  },
+  {
+    "name": "Bali Prawn",
+    "desc": "Non-veg",
+    "half": "₹100 (5 Pc)",
+    "full": "₹180 (10 Pc)",
+    "img": "assests/bali-prawn.jpg"
+  },
+  {
+    "name": "Fish Finger",
+    "desc": "Non-veg",
+    "half": "₹90 (5 Pc)",
+    "full": "₹160 (10 Pc)",
+    "img": "assests/fish-finger.jpg"
+  }
+]
+,
+
   "FRENCH FRIES": [
-    {
-      name: "Classic Fries",
-      desc: "Crispy and salty",
-      price: "₹90",
-      img: "https://source.unsplash.com/300x200/?fries"
-    }
-  ],
+  {
+    "name": "Masala French Fries",
+    "desc": "Veg",
+    "full": "₹60",
+    "img": "assests/masala-fries.jpg"
+  },
+  {
+    "name": "Peri Peri French Fries",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/peri-peri-fries.jpg"
+  }
+],
+
   "ROLLS": [
-    {
-      name: "Egg Roll",
-      desc: "Egg wrapped in roti",
-      price: "₹70",
-      img: "https://source.unsplash.com/300x200/?egg,roll"
-    }
-  ],
+  {
+    "name": "Veg Roll",
+    "desc": "Veg",
+    "full": "₹55",
+    "img": "assests/veg-roll.jpg"
+  },
+  {
+    "name": "Paneer Roll",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/paneer-roll.jpg"
+  },
+  {
+    "name": "Mushroom Roll",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/mushroom-roll.jpg"
+  },
+  {
+    "name": "Mixed Roll (Paneer, Mushroom)",
+    "desc": "Veg",
+    "full": "₹80",
+    "img": "assests/mixed-roll.jpg"
+  },
+  {
+    "name": "Egg Roll",
+    "desc": "Non-veg",
+    "full": "₹60",
+    "img": "assests/egg-roll.jpg"
+  },
+  {
+    "name": "Chicken Roll",
+    "desc": "Non-veg",
+    "full": "₹70",
+    "img": "assests/chicken-roll.jpg"
+  },
+  {
+    "name": "Egg Chicken Roll",
+    "desc": "Non-veg",
+    "full": "₹80",
+    "img": "assests/egg-chicken-roll.jpg"
+  },
+  {
+    "name": "Egg Chicken Prawn Roll",
+    "desc": "Non-veg",
+    "full": "₹100",
+    "img": "assests/egg-chicken-prawn-roll.jpg"
+  }
+],
+
   "CHOWMIN": [
-    {
-      name: "Chicken Chowmin",
-      desc: "Stir-fried noodles",
-      price: "₹120",
-      img: "https://source.unsplash.com/300x200/?chowmein"
-    }
-  ],
+  {
+    "name": "Veg Chowmin",
+    "desc": "Veg",
+    "full": "₹50",
+    "img": "assests/veg-chowmin.jpg"
+  },
+  {
+    "name": "Paneer Chowmin",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/paneer-chowmin.jpg"
+  },
+  {
+    "name": "Mushroom Chowmin",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/mushroom-chowmin.jpg"
+  },
+  {
+    "name": "Mixed Veg Chowmin (Paneer & Mushroom)",
+    "desc": "Veg",
+    "full": "₹80",
+    "img": "assests/mixed-veg-chowmin.jpg"
+  },
+  {
+    "name": "Egg Chowmin",
+    "desc": "Non-veg",
+    "full": "₹60",
+    "img": "assests/egg-chowmin.jpg"
+  },
+  {
+    "name": "Chicken Chowmin",
+    "desc": "Non-veg",
+    "full": "₹70",
+    "img": "assests/chicken-chowmin.jpg"
+  },
+  {
+    "name": "Egg Chicken Chowmin",
+    "desc": "Non-veg",
+    "full": "₹80",
+    "img": "assests/egg-chicken-chowmin.jpg"
+  },
+  {
+    "name": "Mixed Non-Veg Chowmin (Egg, Chicken, Prawn)",
+    "desc": "Non-veg",
+    "full": "₹90",
+    "img": "assests/mixed-nonveg-chowmin.jpg"
+  },
+  {
+    "name": "Mixed Non-Veg Schezwan Chowmin",
+    "desc": "Non-veg",
+    "full": "₹100",
+    "img": "assests/schezwan-nonveg-chowmin.jpg"
+  }
+],
+
   "MAGGI": [
-    {
-      name: "Masala Maggi",
-      desc: "Spicy quick maggi",
-      price: "₹60",
-      img: "https://source.unsplash.com/300x200/?maggi,noodles"
-    }
-  ],
+  {
+    "name": "Veg Maggi",
+    "desc": "Veg",
+    "full": "₹50",
+    "img": "assests/veg-maggi.jpg"
+  },
+  {
+    "name": "Veg Cheese Maggi",
+    "desc": "Veg",
+    "full": "₹60",
+    "img": "assests/veg-cheese-maggi.jpg"
+  },
+  {
+    "name": "Paneer Cheese Maggi",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/paneer-cheese-maggi.jpg"
+  },
+  {
+    "name": "Egg Maggi",
+    "desc": "Non-veg",
+    "full": "₹60",
+    "img": "assests/egg-maggi.jpg"
+  },
+  {
+    "name": "Chicken Tikka Cheese Maggi",
+    "desc": "Non-veg",
+    "full": "₹80",
+    "img": "assests/chicken-tikka-cheese-maggi.jpg"
+  },
+  {
+    "name": "Egg Chicken Tikka Cheese Maggi",
+    "desc": "Non-veg",
+    "full": "₹90",
+    "img": "assests/egg-chicken-tikka-cheese-maggi.jpg"
+  }
+],
+
+
   "MILKSHAKE": [
-    {
-      name: "Chocolate Shake",
-      desc: "Thick & creamy",
-      price: "₹90",
-      img: "https://source.unsplash.com/300x200/?milkshake,chocolate"
-    }
-  ],
+  {
+    "name": "Cold Coffee",
+    "desc": "With Ice Cream",
+    "full": "₹50",
+    "img": "assests/cold-coffee.jpg"
+  },
+  {
+    "name": "Oreo Shake",
+    "desc": "With Ice Cream",
+    "full": "₹50",
+    "img": "assests/oreo-shake.jpg"
+  },
+  {
+    "name": "KitKat Shake",
+    "desc": "With Ice Cream",
+    "full": "₹60",
+    "img": "assests/kitkat-shake.jpg"
+  },
+  {
+    "name": "Brownie Milkshake",
+    "desc": "With Ice Cream",
+    "full": "₹80",
+    "img": "assests/brownie-milkshake.jpg"
+  },
+  {
+    "name": "Chocolate Milkshake",
+    "desc": "With Ice Cream",
+    "full": "₹70",
+    "img": "assests/chocolate-milkshake.jpg"
+  }
+],
+
+
   "MOCKTAIL": [
-    {
-      name: "Virgin Mojito",
-      desc: "Mint & lime refresh",
-      price: "₹100",
-      img: "https://source.unsplash.com/300x200/?mojito"
-    }
-  ],
+  {
+    "name": "Blue Lagoon",
+    "full": "₹70",
+    "img": "assests/blue-lagoon.jpg"
+  },
+  {
+    "name": "Lime Mint",
+    "full": "₹70",
+    "img": "assests/lime-mint.jpg"
+  },
+  {
+    "name": "Virgin Mojito",
+    "full": "₹70",
+    "img": "assests/virgin-mojito.jpg"
+  }
+],
+
   "GRILLED SANDWICHES": [
-    {
-      name: "Cheese Sandwich",
-      desc: "Grilled with cheese",
-      price: "₹80",
-      img: "https://source.unsplash.com/300x200/?grilled,sandwich"
-    }
-  ]
+  {
+    "name": "Corn Cheese Sandwich",
+    "desc": "Veg",
+    "full": "₹60",
+    "img": "assests/corn-cheese-sandwich.jpg"
+  },
+  {
+    "name": "Paneer Tikka Sandwich",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/paneer-tikka-sandwich.jpg"
+  },
+  {
+    "name": "Mushroom Sandwich",
+    "desc": "Veg",
+    "full": "₹70",
+    "img": "assests/mushroom-sandwich.jpg"
+  },
+  {
+    "name": "Cheese Blast Sandwich",
+    "desc": "Veg",
+    "full": "₹90",
+    "img": "assests/cheese-blast-sandwich.jpg"
+  },
+  {
+    "name": "Veg Club Sandwich",
+    "desc": "Veg",
+    "full": "₹100",
+    "img": "assests/veg-club-sandwich.jpg"
+  },
+  {
+    "name": "Chicken Sandwich",
+    "desc": "Non-veg",
+    "full": "₹70",
+    "img": "assests/chicken-sandwich.jpg"
+  },
+  {
+    "name": "Chicken Tikka Cheese Sandwich",
+    "desc": "Non-veg",
+    "full": "₹90",
+    "img": "assests/chicken-tikka-cheese-sandwich.jpg"
+  },
+  {
+    "name": "Chicken Club Sandwich",
+    "desc": "Non-veg",
+    "full": "₹120",
+    "img": "assests/chicken-club-sandwich.jpg"
+  }
+]
 };
 
 const menuItemsContainer = document.getElementById("menu-items");
