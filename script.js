@@ -502,7 +502,7 @@ const menuData = {
     name: "Cold Coffee",
     desc: "With Ice Cream",
     full: "₹50",
-    "img": "assests/cold-coffee.jpg"
+    "img": "assests/cold-coffee.png"
   },
   {
     name: "Oreo Shake",
@@ -514,13 +514,13 @@ const menuData = {
     name: "KitKat Shake",
     desc: "With Ice Cream",
     full: "₹60",
-    "img": "assests/kitkat-shake.jpg"
+    "img": "assests/kitkat-shake.jpeg"
   },
   {
     name: "Brownie Milkshake",
     desc: "With Ice Cream",
     full: "₹80",
-    "img": "assests/brownie-milkshake.jpg"
+    "img": "assests/brownie-milkshake.jpeg"
   },
   {
     name: "Chocolate Milkshake",
@@ -560,13 +560,13 @@ const menuData = {
     name: "Paneer Tikka Sandwich",
     desc: "Veg",
     full: "₹70",
-    "img": "assests/paneer-tikka-sandwich.jpg"
+    "img": "assests/paneer-tikka-sandwich.jpeg"
   },
   {
     name: "Mushroom Sandwich",
     desc: "Veg",
     full: "₹70",
-    "img": "assests/mushroom-sandwich.jpg"
+    "img": "assests/mushroom-sandwich.jpeg"
   },
   {
     name: "Cheese Blast Sandwich",
@@ -578,7 +578,7 @@ const menuData = {
     name: "Veg Club Sandwich",
     desc: "Veg",
     full: "₹100",
-    "img": "assests/veg-club-sandwich.jpg"
+    "img": "assests/veg-club-sandwich.jpeg"
   },
   {
     name: "Chicken Sandwich",
@@ -596,7 +596,7 @@ const menuData = {
     name: "Chicken Club Sandwich",
     desc: "Non-veg",
     full: "₹120",
-    "img": "assests/chicken-club-sandwich.jpg"
+    "img": "assests/chicken-club-sandwich.jpeg"
   }
 ]
 };
