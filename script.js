@@ -86,7 +86,7 @@ const menuData = {
     name: "Egg Chicken Fried Rice",
     desc: "Non-veg (Egg + Chicken)",
     full: "₹90",
-    img: "assests/chicken.jpg"
+    img: "assests/hq720.jpg"
   },
   {
     name: "Mixed Non-Veg Fried Rice",
