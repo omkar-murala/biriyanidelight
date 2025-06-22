@@ -178,6 +178,7 @@ html, body {
 .price-split {
   display: flex;
   justify-content: space-between; /* more space between Half and Full */
+  align-items: start;
   margin-top: 0.7rem;
   gap: 2.5rem; /* add gap explicitly */
 }
