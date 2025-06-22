@@ -411,7 +411,7 @@ const menuData = {
     name: "Paneer Chowmin",
     desc: "Veg",
     full: "₹70",
-    "img": "assests/paneer-chowmin.jpg"
+    "img": "assests/paneer-chowmin.jpeg"
   },
   {
     name: "Mushroom Chowmin",
@@ -453,7 +453,7 @@ const menuData = {
     name: "Mixed Non-Veg Schezwan Chowmin",
     desc: "Non-veg",
     full: "₹100",
-    "img": "assests/schezwan-nonveg-chowmin.jpg"
+    "img": "assests/schezwan-nonveg-chowmin.jpeg"
   }
 ],
 
