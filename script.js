@@ -615,40 +615,41 @@ function loadCategory(category) {
       const card = document.createElement("div");
       card.className = "menu-card";
       card.innerHTML = `
-        <img src="${item.img}" alt="${item.name}" loading="lazy"/>
-        <div class="card-content">
-          <h3>${item.name}</h3>
-          <p>${item.desc}</p>
-          ${
-            item.half && item.full
-              ? `<div class="price-split">
-                  <div class=half>
-                    <span>Half</span>
-                    <span class="price">${item.half}</span>
-                  </div>
-                  <div class=full>
-                    <span>Full</span>
-                    <span class="price">${item.full}</span>
-                  </div>
-                </div>`
-              : item.full
-              ? `<div class="price-split">
-                  <div class=full>
-                    <span>Full</span>
-                    <span class="price">${item.full}</span>
-                  </div>
-                </div>`
-              : item.price
-              ? `<div class="price-split">
-                  <div class=full>
-                    <span>Price</span>
-                    <span class="price">${item.price}</span>
-                  </div>
-                </div>`
-              : `<p class="price">Price not available</p>`
-          }
-        </div>
-      `;
+  <img src="${item.img}" alt="${item.name}" loading="lazy"/>
+  <div class="card-content">
+    <h3>${item.name}</h3>
+    <p>${item.desc || ""}</p>
+    ${
+      item.half && item.full
+        ? `<div class="price-split">
+              <div class="price-block">
+                <span>Half</span>
+                <span class="price">${item.half}</span>
+              </div>
+              <div class="price-block">
+                <span>Full</span>
+                <span class="price">${item.full}</span>
+              </div>
+            </div>`
+        : item.half || item.full
+        ? `<div class="price-split">
+              <div class="price-block">
+                <span>Price</span>
+                <span class="price">${item.half || item.full}</span>
+              </div>
+            </div>`
+        : item.price
+        ? `<div class="price-split">
+              <div class="price-block">
+                <span>Price</span>
+                <span class="price">${item.price}</span>
+              </div>
+            </div>`
+        : `<p class="price">Price not available</p>`
+    }
+  </div>
+`;
+
       card.querySelector("img").onerror = () => {
         card.querySelector("img").src = "https://via.placeholder.com/300x200?text=Image+Unavailable";
       };
