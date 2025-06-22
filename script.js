@@ -119,216 +119,216 @@ const menuData = {
 
   "CURRYS": [
   {
-    "name": "Chilli Gobi",
-    "desc": "Veg",
-    "half": "₹70",
-    "full": "₹120",
+    name: "Chilli Gobi",
+    desc: "Veg",
+    half: "₹70",
+    full: "₹120",
     "img": "assests/chilli-gobi.jpg"
   },
   {
-    "name": "Paneer Butter Masala",
-    "desc": "Veg",
-    "half": "₹90",
-    "full": "₹170",
+    name: "Paneer Butter Masala",
+    desc: "Veg",
+    half: "₹90",
+    full: "₹170",
     "img": "assests/panner-butter.jpg"
   },
   {
-    "name": "Kadai Paneer",
-    "desc": "Veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Kadai Paneer",
+    desc: "Veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/kp.jpg"
   },
   {
-    "name": "Chilli Paneer",
-    "desc": "Veg",
-    "half": "₹90",
-    "full": "₹160",
+    name: "Chilli Paneer",
+    desc: "Veg",
+    half: "₹90",
+    full: "₹160",
     "img": "assests/cp.jpg"
   },
   {
-    "name": "Paneer Varta",
-    "desc": "Veg",
-    "half": "₹90",
-    "full": "₹170",
+    name: "Paneer Varta",
+    desc: "Veg",
+    half: "₹90",
+    full: "₹170",
     "img": "assests/pb.jpg"
   },
   {
-    "name": "Paneer 65",
-    "desc": "Veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Paneer 65",
+    desc: "Veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/p65.jpg"
   },
   {
-    "name": "Mushroom Butter Masala",
-    "desc": "Veg",
-    "half": "₹90",
-    "full": "₹170",
+    name: "Mushroom Butter Masala",
+    desc: "Veg",
+    half: "₹90",
+    full: "₹170",
     "img": "assests/mbm.jpg"
   },
   {
-    "name": "Kadai Mushroom",
-    "desc": "Veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Kadai Mushroom",
+    desc: "Veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/kp.jpg"
   },
   {
-    "name": "Chilli Mushroom",
-    "desc": "Veg",
-    "half": "₹90",
-    "full": "₹170",
+    name: "Chilli Mushroom",
+    desc: "Veg",
+    half: "₹90",
+    full: "₹170",
     "img": "assests/cm.jpg"
   },
   {
-    "name": "Mushroom 65",
-    "desc": "Veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Mushroom 65",
+    desc: "Veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/m65.jpg"
   },
   {
-    "name": "Chicken Kasa",
-    "desc": "Non-veg",
-    "half": "₹90",
-    "full": "₹170",
+    name: "Chicken Kasa",
+    desc: "Non-veg",
+    half: "₹90",
+    full: "₹170",
     "img": "assests/chicken-kasa.jpg"
   },
   {
-    "name": "Chicken Butter Masala",
-    "desc": "Non-veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Chicken Butter Masala",
+    desc: "Non-veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/chicken-butter.jpg"
   },
   {
-    "name": "Kadai Chicken",
-    "desc": "Non-veg",
-    "half": "₹100",
-    "full": "₹190",
+    name: "Kadai Chicken",
+    desc: "Non-veg",
+    half: "₹100",
+    full: "₹190",
     "img": "assests/kadai-chicken.jpg"
   },
   {
-    "name": "Chilli Chicken",
-    "desc": "Non-veg",
-    "half": "₹90",
-    "full": "₹160",
+    name: "Chilli Chicken",
+    desc: "Non-veg",
+    half: "₹90",
+    full: "₹160",
     "img": "assests/chilli-chicken.jpeg"
   },
   {
-    "name": "Chicken 65",
-    "desc": "Non-veg",
-    "half": "₹100",
-    "full": "₹190",
+    name: "Chicken 65",
+    desc: "Non-veg",
+    half: "₹100",
+    full: "₹190",
     "img": "assests/chichken-65.jpeg"
   },
   {
-    "name": "Chicken Mughlai",
-    "desc": "Non-veg",
-    "half": "₹120",
-    "full": "₹220",
+    name: "Chicken Mughlai",
+    desc: "Non-veg",
+    half: "₹120",
+    full: "₹220",
     "img": "assests/chicken-mughlai.jpg"
   },
   {
-    "name": "Honey Chilli Chicken",
-    "desc": "Non-veg",
-    "half": "₹110",
-    "full": "₹200",
+    name: "Honey Chilli Chicken",
+    desc: "Non-veg",
+    half: "₹110",
+    full: "₹200",
     "img": "assests/honey-chilli-chicken.jpeg"
   },
   {
-    "name": "Dragon Chicken",
-    "desc": "Non-veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Dragon Chicken",
+    desc: "Non-veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/dragon-chicken.jpg"
   },
   {
-    "name": "Chilli Fish",
-    "desc": "Non-veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Chilli Fish",
+    desc: "Non-veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/chilli-fish.jpg"
   },
   {
-    "name": "Prawn Butter Masala",
-    "desc": "Non-veg",
-    "half": "₹120",
-    "full": "₹220",
+    name: "Prawn Butter Masala",
+    desc: "Non-veg",
+    half: "₹120",
+    full: "₹220",
     "img": "assests/prawn-butter.jpg"
   },
   {
-    "name": "Chilli Prawn",
-    "desc": "Non-veg",
-    "half": "₹110",
-    "full": "₹210",
+    name: "Chilli Prawn",
+    desc: "Non-veg",
+    half: "₹110",
+    full: "₹210",
     "img": "assests/chilli-prawn.jpg"
   }
 ],
 
   "STARTERS": [
   {
-    "name": "Crispy Paneer Pakoda",
-    "desc": "Veg",
-    "half": "₹100",
-    "full": "₹180",
-    "img": "assests/crispy-paneer-pakoda.jpg"
+    name: "Crispy Paneer Pakoda",
+    desc: "Veg",
+    half: "₹100",
+    full: "₹180",
+    "img": "assests/paneer-pakoda.jpg"
   },
   {
-    "name": "Mushroom Salt Pepper",
-    "desc": "Veg",
-    "half": "₹100",
-    "full": "₹180",
+    name: "Mushroom Salt Pepper",
+    desc: "Veg",
+    half: "₹100",
+    full: "₹180",
     "img": "assests/mushroom-salt-pepper.jpg"
   },
   {
-    "name": "Crispy Corn",
-    "desc": "Veg",
-    "half": "₹80",
-    "full": "₹140",
+    name: "Crispy Corn",
+    desc: "Veg",
+    half: "₹80",
+    full: "₹140",
     "img": "assests/crispy-corn.jpg"
   },
   {
-    "name": "Chicken Pakoda",
-    "desc": "Non-veg",
-    "half": "₹80 (6 Pc)",
-    "full": "₹150 (12 Pc)",
+    name: "Chicken Pakoda",
+    desc: "Non-veg",
+    half: "₹80(6Pc)",
+    full: "₹150(12Pc)",
     "img": "assests/chicken-pakoda.jpg"
   },
   {
-    "name": "Fried Chicken",
-    "desc": "Non-veg",
-    "half": "₹90 (6 Pc)",
-    "full": "₹170 (12 Pc)",
-    "img": "assests/fried-chicken.jpg"
+    name: "Fried Chicken",
+    desc: "Non-veg",
+    half: "₹90(6Pc)",
+    full: "₹170(12Pc)",
+    "img": "assests/fried-chicken.jpeg"
   },
   {
-    "name": "Chicken Bucket",
-    "desc": "Non-veg",
-    "half": "₹100 (6 Pc)",
-    "full": "₹180 (12 Pc)",
-    "img": "assests/chicken-bucket.jpg"
+    name: "Chicken Bucket",
+    desc: "Non-veg",
+    half: "₹100(6Pc)",
+    full: "₹180(12Pc)",
+    "img": "assests/chicken-bucket.png"
   },
   {
-    "name": "Chicken Lollipop",
-    "desc": "Non-veg",
-    "half": "₹110 (3 Pc)",
-    "full": "₹200 (6 Pc)",
-    "img": "assests/chicken-lollipop.jpg"
+    name: "Chicken Lollipop",
+    desc: "Non-veg",
+    half: "₹110(3Pc)",
+    full: "₹200(6Pc)",
+    "img": "assests/chicken-lollipop.jpeg"
   },
   {
-    "name": "Bali Prawn",
-    "desc": "Non-veg",
-    "half": "₹100 (5 Pc)",
-    "full": "₹180 (10 Pc)",
-    "img": "assests/bali-prawn.jpg"
+    name: "Bali Prawn",
+    desc: "Non-veg",
+    half: "₹100(5Pc)",
+    full: "₹180(10Pc)",
+    "img": "assests/bali-prawn.jpeg"
   },
   {
-    "name": "Fish Finger",
-    "desc": "Non-veg",
-    "half": "₹90 (5 Pc)",
-    "full": "₹160 (10 Pc)",
+    name: "Fish Finger",
+    desc: "Non-veg",
+    half: "₹90(5Pc)",
+    full: "₹160(10Pc)",
     "img": "assests/fish-finger.jpg"
   }
 ]
@@ -336,162 +336,162 @@ const menuData = {
 
   "FRENCH FRIES": [
   {
-    "name": "Masala French Fries",
-    "desc": "Veg",
-    "full": "₹60",
+    name: "Masala French Fries",
+    desc: "Veg",
+    full: "₹60",
     "img": "assests/masala-fries.jpg"
   },
   {
-    "name": "Peri Peri French Fries",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Peri Peri French Fries",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/peri-peri-fries.jpg"
   }
 ],
 
   "ROLLS": [
   {
-    "name": "Veg Roll",
-    "desc": "Veg",
-    "full": "₹55",
+    name: "Veg Roll",
+    desc: "Veg",
+    full: "₹55",
     "img": "assests/veg-roll.jpg"
   },
   {
-    "name": "Paneer Roll",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Paneer Roll",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/paneer-roll.jpg"
   },
   {
-    "name": "Mushroom Roll",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Mushroom Roll",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/mushroom-roll.jpg"
   },
   {
-    "name": "Mixed Roll (Paneer, Mushroom)",
-    "desc": "Veg",
-    "full": "₹80",
+    name: "Mixed Roll (Paneer, Mushroom)",
+    desc: "Veg",
+    full: "₹80",
     "img": "assests/mixed-roll.jpg"
   },
   {
-    "name": "Egg Roll",
-    "desc": "Non-veg",
-    "full": "₹60",
+    name: "Egg Roll",
+    desc: "Non-veg",
+    full: "₹60",
     "img": "assests/egg-roll.jpg"
   },
   {
-    "name": "Chicken Roll",
-    "desc": "Non-veg",
-    "full": "₹70",
+    name: "Chicken Roll",
+    desc: "Non-veg",
+    full: "₹70",
     "img": "assests/chicken-roll.jpg"
   },
   {
-    "name": "Egg Chicken Roll",
-    "desc": "Non-veg",
-    "full": "₹80",
+    name: "Egg Chicken Roll",
+    desc: "Non-veg",
+    full: "₹80",
     "img": "assests/egg-chicken-roll.jpg"
   },
   {
-    "name": "Egg Chicken Prawn Roll",
-    "desc": "Non-veg",
-    "full": "₹100",
+    name: "Egg Chicken Prawn Roll",
+    desc: "Non-veg",
+    full: "₹100",
     "img": "assests/egg-chicken-prawn-roll.jpg"
   }
 ],
 
   "CHOWMIN": [
   {
-    "name": "Veg Chowmin",
-    "desc": "Veg",
-    "full": "₹50",
+    name: "Veg Chowmin",
+    desc: "Veg",
+    full: "₹50",
     "img": "assests/veg-chowmin.jpg"
   },
   {
-    "name": "Paneer Chowmin",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Paneer Chowmin",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/paneer-chowmin.jpg"
   },
   {
-    "name": "Mushroom Chowmin",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Mushroom Chowmin",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/mushroom-chowmin.jpg"
   },
   {
-    "name": "Mixed Veg Chowmin (Paneer & Mushroom)",
-    "desc": "Veg",
-    "full": "₹80",
+    name: "Mixed Veg Chowmin (Paneer & Mushroom)",
+    desc: "Veg",
+    full: "₹80",
     "img": "assests/mixed-veg-chowmin.jpg"
   },
   {
-    "name": "Egg Chowmin",
-    "desc": "Non-veg",
-    "full": "₹60",
+    name: "Egg Chowmin",
+    desc: "Non-veg",
+    full: "₹60",
     "img": "assests/egg-chowmin.jpg"
   },
   {
-    "name": "Chicken Chowmin",
-    "desc": "Non-veg",
-    "full": "₹70",
+    name: "Chicken Chowmin",
+    desc: "Non-veg",
+    full: "₹70",
     "img": "assests/chicken-chowmin.jpg"
   },
   {
-    "name": "Egg Chicken Chowmin",
-    "desc": "Non-veg",
-    "full": "₹80",
+    name: "Egg Chicken Chowmin",
+    desc: "Non-veg",
+    full: "₹80",
     "img": "assests/egg-chicken-chowmin.jpg"
   },
   {
-    "name": "Mixed Non-Veg Chowmin (Egg, Chicken, Prawn)",
-    "desc": "Non-veg",
-    "full": "₹90",
+    name: "Mixed Non-Veg Chowmin (Egg, Chicken, Prawn)",
+    desc: "Non-veg",
+    full: "₹90",
     "img": "assests/mixed-nonveg-chowmin.jpg"
   },
   {
-    "name": "Mixed Non-Veg Schezwan Chowmin",
-    "desc": "Non-veg",
-    "full": "₹100",
+    name: "Mixed Non-Veg Schezwan Chowmin",
+    desc: "Non-veg",
+    full: "₹100",
     "img": "assests/schezwan-nonveg-chowmin.jpg"
   }
 ],
 
   "MAGGI": [
   {
-    "name": "Veg Maggi",
-    "desc": "Veg",
-    "full": "₹50",
+    name: "Veg Maggi",
+    desc: "Veg",
+    full: "₹50",
     "img": "assests/veg-maggi.jpg"
   },
   {
-    "name": "Veg Cheese Maggi",
-    "desc": "Veg",
-    "full": "₹60",
+    name: "Veg Cheese Maggi",
+    desc: "Veg",
+    full: "₹60",
     "img": "assests/veg-cheese-maggi.jpg"
   },
   {
-    "name": "Paneer Cheese Maggi",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Paneer Cheese Maggi",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/paneer-cheese-maggi.jpg"
   },
   {
-    "name": "Egg Maggi",
-    "desc": "Non-veg",
-    "full": "₹60",
+    name: "Egg Maggi",
+    desc: "Non-veg",
+    full: "₹60",
     "img": "assests/egg-maggi.jpg"
   },
   {
-    "name": "Chicken Tikka Cheese Maggi",
-    "desc": "Non-veg",
-    "full": "₹80",
+    name: "Chicken Tikka Cheese Maggi",
+    desc: "Non-veg",
+    full: "₹80",
     "img": "assests/chicken-tikka-cheese-maggi.jpg"
   },
   {
-    "name": "Egg Chicken Tikka Cheese Maggi",
-    "desc": "Non-veg",
-    "full": "₹90",
+    name: "Egg Chicken Tikka Cheese Maggi",
+    desc: "Non-veg",
+    full: "₹90",
     "img": "assests/egg-chicken-tikka-cheese-maggi.jpg"
   }
 ],
@@ -499,33 +499,33 @@ const menuData = {
 
   "MILKSHAKE": [
   {
-    "name": "Cold Coffee",
-    "desc": "With Ice Cream",
-    "full": "₹50",
+    name: "Cold Coffee",
+    desc: "With Ice Cream",
+    full: "₹50",
     "img": "assests/cold-coffee.jpg"
   },
   {
-    "name": "Oreo Shake",
-    "desc": "With Ice Cream",
-    "full": "₹50",
+    name: "Oreo Shake",
+    desc: "With Ice Cream",
+    full: "₹50",
     "img": "assests/oreo-shake.jpg"
   },
   {
-    "name": "KitKat Shake",
-    "desc": "With Ice Cream",
-    "full": "₹60",
+    name: "KitKat Shake",
+    desc: "With Ice Cream",
+    full: "₹60",
     "img": "assests/kitkat-shake.jpg"
   },
   {
-    "name": "Brownie Milkshake",
-    "desc": "With Ice Cream",
-    "full": "₹80",
+    name: "Brownie Milkshake",
+    desc: "With Ice Cream",
+    full: "₹80",
     "img": "assests/brownie-milkshake.jpg"
   },
   {
-    "name": "Chocolate Milkshake",
-    "desc": "With Ice Cream",
-    "full": "₹70",
+    name: "Chocolate Milkshake",
+    desc: "With Ice Cream",
+    full: "₹70",
     "img": "assests/chocolate-milkshake.jpg"
   }
 ],
@@ -533,69 +533,69 @@ const menuData = {
 
   "MOCKTAIL": [
   {
-    "name": "Blue Lagoon",
-    "full": "₹70",
+    name: "Blue Lagoon",
+    full: "₹70",
     "img": "assests/blue-lagoon.jpg"
   },
   {
-    "name": "Lime Mint",
-    "full": "₹70",
+    name: "Lime Mint",
+    full: "₹70",
     "img": "assests/lime-mint.jpg"
   },
   {
-    "name": "Virgin Mojito",
-    "full": "₹70",
+    name: "Virgin Mojito",
+    full: "₹70",
     "img": "assests/virgin-mojito.jpg"
   }
 ],
 
   "GRILLED SANDWICHES": [
   {
-    "name": "Corn Cheese Sandwich",
-    "desc": "Veg",
-    "full": "₹60",
+    name: "Corn Cheese Sandwich",
+    desc: "Veg",
+    full: "₹60",
     "img": "assests/corn-cheese-sandwich.jpg"
   },
   {
-    "name": "Paneer Tikka Sandwich",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Paneer Tikka Sandwich",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/paneer-tikka-sandwich.jpg"
   },
   {
-    "name": "Mushroom Sandwich",
-    "desc": "Veg",
-    "full": "₹70",
+    name: "Mushroom Sandwich",
+    desc: "Veg",
+    full: "₹70",
     "img": "assests/mushroom-sandwich.jpg"
   },
   {
-    "name": "Cheese Blast Sandwich",
-    "desc": "Veg",
-    "full": "₹90",
+    name: "Cheese Blast Sandwich",
+    desc: "Veg",
+    full: "₹90",
     "img": "assests/cheese-blast-sandwich.jpg"
   },
   {
-    "name": "Veg Club Sandwich",
-    "desc": "Veg",
-    "full": "₹100",
+    name: "Veg Club Sandwich",
+    desc: "Veg",
+    full: "₹100",
     "img": "assests/veg-club-sandwich.jpg"
   },
   {
-    "name": "Chicken Sandwich",
-    "desc": "Non-veg",
-    "full": "₹70",
+    name: "Chicken Sandwich",
+    desc: "Non-veg",
+    full: "₹70",
     "img": "assests/chicken-sandwich.jpg"
   },
   {
-    "name": "Chicken Tikka Cheese Sandwich",
-    "desc": "Non-veg",
-    "full": "₹90",
+    name: "Chicken Tikka Cheese Sandwich",
+    desc: "Non-veg",
+    full: "₹90",
     "img": "assests/chicken-tikka-cheese-sandwich.jpg"
   },
   {
-    "name": "Chicken Club Sandwich",
-    "desc": "Non-veg",
-    "full": "₹120",
+    name: "Chicken Club Sandwich",
+    desc: "Non-veg",
+    full: "₹120",
     "img": "assests/chicken-club-sandwich.jpg"
   }
 ]
@@ -622,25 +622,25 @@ function loadCategory(category) {
           ${
             item.half && item.full
               ? `<div class="price-split">
-                  <div class="half">
+                  <div class=half>
                     <span>Half</span>
                     <span class="price">${item.half}</span>
                   </div>
-                  <div class="full">
+                  <div class=full>
                     <span>Full</span>
                     <span class="price">${item.full}</span>
                   </div>
                 </div>`
               : item.full
               ? `<div class="price-split">
-                  <div class="full">
+                  <div class=full>
                     <span>Full</span>
                     <span class="price">${item.full}</span>
                   </div>
                 </div>`
               : item.price
               ? `<div class="price-split">
-                  <div class="full">
+                  <div class=full>
                     <span>Price</span>
                     <span class="price">${item.price}</span>
                   </div>
