@@ -378,7 +378,7 @@ const menuData = {
     name: "Egg Roll",
     desc: "Non-veg",
     full: "₹60",
-    "img": "assests/egg-roll.jpg"
+    "img": "assests/egg-roll.jpeg"
   },
   {
     name: "Chicken Roll",
