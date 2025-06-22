@@ -5,7 +5,7 @@ html, body {
   height: 100%;
   font-family: 'Segoe UI', sans-serif;
   background-color: #fff7f0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Brand Header */
