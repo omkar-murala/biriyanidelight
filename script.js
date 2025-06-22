@@ -113,7 +113,7 @@ const menuData = {
     name: "Laccha Paratha",
     desc: "per peice",
     price: "₹20",
-    img: "assests/lacha.jpg"
+    img: "assests/Tawa_Lachha_Paratha.jpg"
   }
 ],
 
@@ -123,7 +123,7 @@ const menuData = {
     desc: "Veg",
     half: "₹70",
     full: "₹120",
-    "img": "assests/chilli-gobi.jpg"
+    "img": "assests/chilli-gobi-recipe-780x390-1.jpg"
   },
   {
     name: "Paneer Butter Masala",
@@ -207,7 +207,7 @@ const menuData = {
     desc: "Non-veg",
     half: "₹100",
     full: "₹190",
-    "img": "assests/kadai-chicken.jpg"
+    "img": "assests/kadai-chicken-1.jpg"
   },
   {
     name: "Chilli Chicken",
