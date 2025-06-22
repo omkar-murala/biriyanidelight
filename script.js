@@ -130,63 +130,63 @@ const menuData = {
     "desc": "Veg",
     "half": "₹90",
     "full": "₹170",
-    "img": "assests/paneer-butter.jpg"
+    "img": "assests/panner-butter.jpg"
   },
   {
     "name": "Kadai Paneer",
     "desc": "Veg",
     "half": "₹100",
     "full": "₹180",
-    "img": "assests/kadai-paneer.jpg"
+    "img": "assests/kp.jpg"
   },
   {
     "name": "Chilli Paneer",
     "desc": "Veg",
     "half": "₹90",
     "full": "₹160",
-    "img": "assests/chilli-paneer.jpg"
+    "img": "assests/cp.jpg"
   },
   {
     "name": "Paneer Varta",
     "desc": "Veg",
     "half": "₹90",
     "full": "₹170",
-    "img": "assests/paneer-varta.jpg"
+    "img": "assests/pb.jpg"
   },
   {
     "name": "Paneer 65",
     "desc": "Veg",
     "half": "₹100",
     "full": "₹180",
-    "img": "assests/paneer-65.jpg"
+    "img": "assests/p65.jpg"
   },
   {
     "name": "Mushroom Butter Masala",
     "desc": "Veg",
     "half": "₹90",
     "full": "₹170",
-    "img": "assests/mushroom-butter.jpg"
+    "img": "assests/mbm.jpg"
   },
   {
     "name": "Kadai Mushroom",
     "desc": "Veg",
     "half": "₹100",
     "full": "₹180",
-    "img": "assests/kadai-mushroom.jpg"
+    "img": "assests/kp.jpg"
   },
   {
     "name": "Chilli Mushroom",
     "desc": "Veg",
     "half": "₹90",
     "full": "₹170",
-    "img": "assests/chilli-mushroom.jpg"
+    "img": "assests/cm.jpg"
   },
   {
     "name": "Mushroom 65",
     "desc": "Veg",
     "half": "₹100",
     "full": "₹180",
-    "img": "assests/mushroom-65.jpg"
+    "img": "assests/m65.jpg"
   },
   {
     "name": "Chicken Kasa",
@@ -214,14 +214,14 @@ const menuData = {
     "desc": "Non-veg",
     "half": "₹90",
     "full": "₹160",
-    "img": "assests/chilli-chicken.jpg"
+    "img": "assests/chilli-chicken.jpeg"
   },
   {
     "name": "Chicken 65",
     "desc": "Non-veg",
     "half": "₹100",
     "full": "₹190",
-    "img": "assests/chicken-65.jpg"
+    "img": "assests/chichken-65.jpeg"
   },
   {
     "name": "Chicken Mughlai",
@@ -235,7 +235,7 @@ const menuData = {
     "desc": "Non-veg",
     "half": "₹110",
     "full": "₹200",
-    "img": "assests/honey-chilli-chicken.jpg"
+    "img": "assests/honey-chilli-chicken.jpeg"
   },
   {
     "name": "Dragon Chicken",
