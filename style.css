@@ -212,3 +212,9 @@ html, body {
   justify-content: flex-start;
   padding-left: 6.5rem;
 }
+
+.footer-bar {
+  height: 50px; /* Adjust height as needed */
+  background-color: red;
+  width: 100%;
+}
