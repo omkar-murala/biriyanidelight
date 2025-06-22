@@ -468,7 +468,7 @@ const menuData = {
     name: "Veg Cheese Maggi",
     desc: "Veg",
     full: "₹60",
-    "img": "assests/veg-cheese-maggi.jpg"
+    "img": "assests/veg-cheese-maggi.jpeg"
   },
   {
     name: "Paneer Cheese Maggi",
@@ -535,7 +535,7 @@ const menuData = {
   {
     name: "Blue Lagoon",
     full: "₹70",
-    "img": "assests/blue-lagoon.jpg"
+    "img": "assests/blue-lagoon.jpeg"
   },
   {
     name: "Lime Mint",
@@ -545,7 +545,7 @@ const menuData = {
   {
     name: "Virgin Mojito",
     full: "₹70",
-    "img": "assests/virgin-mojito.jpg"
+    "img": "assests/virgin-mojito.jpeg"
   }
 ],
 
