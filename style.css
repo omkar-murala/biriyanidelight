@@ -214,7 +214,7 @@ html, body {
 }
 
 .footer-bar {
-  height: 50px; /* Adjust height as needed */
+  height: 100px; /* Adjust height as needed */
   background-color: red;
   width: 100%;
 }
