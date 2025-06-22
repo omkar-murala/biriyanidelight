@@ -618,7 +618,10 @@ function loadCategory(category) {
   <img src="${item.img}" alt="${item.name}" loading="lazy"/>
   <div class="card-content">
     <h3>${item.name}</h3>
-    <p>${item.desc || ""}</p>
+    <p class="desc-label">
+      <span class="${item.desc?.toLowerCase().includes('non') ? 'symbol non-veg' : 'symbol veg'}"></span>
+      ${item.desc}
+    </p>
     ${
       item.half && item.full
         ? `<div class="price-split">
