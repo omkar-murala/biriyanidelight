@@ -34,7 +34,7 @@ const menuData = {
   {
     name: "Veg Biryani",
     desc: "super Veg",
-    full: "₹90",
+    full: "₹100",
     img: "assests/veg.jpg"
   }
 ],
