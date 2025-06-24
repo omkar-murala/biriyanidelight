@@ -90,13 +90,13 @@ const menuData = {
   },
   {
     name: "Mixed Non-Veg Fried Rice",
-    desc: "Egg, Chicken, Prawn",
+    desc: "Non-veg Egg, Chicken, Prawn",
     full: "₹110",
     img: "assests/mix-non.jpg"
   },
   {
     name: "Non-Veg Schezwan Fried Rice",
-    desc: "Schezwan – Egg, Chicken, Prawn",
+    desc: "Non-veg Schezwan – Egg, Chicken, Prawn",
     full: "₹120",
     img: "assests/mix.jpg"
   }
