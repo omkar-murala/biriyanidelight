@@ -534,16 +534,19 @@ const menuData = {
   "MOCKTAIL": [
   {
     name: "Blue Lagoon",
+    desc: "Veg",
     full: "₹70",
     "img": "assests/blue-lagoon.jpeg"
   },
   {
     name: "Lime Mint",
+    desc: "Veg",
     full: "₹70",
     "img": "assests/lime-mint.jpg"
   },
   {
     name: "Virgin Mojito",
+    desc: "Veg",
     full: "₹70",
     "img": "assests/virgin-mojito.jpeg"
   }
